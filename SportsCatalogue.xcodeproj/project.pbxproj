@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52A6E3881462A049008F9015 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52A6E3871462A049008F9015 /* Cocoa.framework */; };
+		52A6E3921462A049008F9015 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52A6E3901462A049008F9015 /* InfoPlist.strings */; };
+		52A6E3941462A049008F9015 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A6E3931462A049008F9015 /* main.m */; };
+		52A6E3981462A049008F9015 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 52A6E3961462A049008F9015 /* Credits.rtf */; };
+		52A6E39B1462A049008F9015 /* DKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52A6E39A1462A049008F9015 /* DKAppDelegate.m */; };
+		52A6E39E1462A049008F9015 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A6E39C1462A049008F9015 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52A6E3831462A049008F9015 /* SportsCatalogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsCatalogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52A6E3871462A049008F9015 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		52A6E38A1462A049008F9015 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		52A6E38B1462A049008F9015 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		52A6E38C1462A049008F9015 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52A6E38F1462A049008F9015 /* SportsCatalogue-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SportsCatalogue-Info.plist"; sourceTree = "<group>"; };
+		52A6E3911462A049008F9015 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52A6E3931462A049008F9015 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52A6E3951462A049008F9015 /* SportsCatalogue-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SportsCatalogue-Prefix.pch"; sourceTree = "<group>"; };
+		52A6E3971462A049008F9015 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		52A6E3991462A049008F9015 /* DKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAppDelegate.h; sourceTree = "<group>"; };
+		52A6E39A1462A049008F9015 /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
+		52A6E39D1462A049008F9015 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52A6E3801462A049008F9015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A6E3881462A049008F9015 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52A6E3781462A049008F9015 = {
+			isa = PBXGroup;
+			children = (
+				52A6E38D1462A049008F9015 /* SportsCatalogue */,
+				52A6E3861462A049008F9015 /* Frameworks */,
+				52A6E3841462A049008F9015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52A6E3841462A049008F9015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52A6E3831462A049008F9015 /* SportsCatalogue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52A6E3861462A049008F9015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52A6E3871462A049008F9015 /* Cocoa.framework */,
+				52A6E3891462A049008F9015 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52A6E3891462A049008F9015 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52A6E38A1462A049008F9015 /* AppKit.framework */,
+				52A6E38B1462A049008F9015 /* CoreData.framework */,
+				52A6E38C1462A049008F9015 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		52A6E38D1462A049008F9015 /* SportsCatalogue */ = {
+			isa = PBXGroup;
+			children = (
+				52A6E3991462A049008F9015 /* DKAppDelegate.h */,
+				52A6E39A1462A049008F9015 /* DKAppDelegate.m */,
+				52A6E39C1462A049008F9015 /* MainMenu.xib */,
+				52A6E38E1462A049008F9015 /* Supporting Files */,
+			);
+			path = SportsCatalogue;
+			sourceTree = "<group>";
+		};
+		52A6E38E1462A049008F9015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52A6E38F1462A049008F9015 /* SportsCatalogue-Info.plist */,
+				52A6E3901462A049008F9015 /* InfoPlist.strings */,
+				52A6E3931462A049008F9015 /* main.m */,
+				52A6E3951462A049008F9015 /* SportsCatalogue-Prefix.pch */,
+				52A6E3961462A049008F9015 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52A6E3821462A049008F9015 /* SportsCatalogue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52A6E3A11462A049008F9015 /* Build configuration list for PBXNativeTarget "SportsCatalogue" */;
+			buildPhases = (
+				52A6E37F1462A049008F9015 /* Sources */,
+				52A6E3801462A049008F9015 /* Frameworks */,
+				52A6E3811462A049008F9015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SportsCatalogue;
+			productName = SportsCatalogue;
+			productReference = 52A6E3831462A049008F9015 /* SportsCatalogue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52A6E37A1462A049008F9015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 52A6E37D1462A049008F9015 /* Build configuration list for PBXProject "SportsCatalogue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52A6E3781462A049008F9015;
+			productRefGroup = 52A6E3841462A049008F9015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52A6E3821462A049008F9015 /* SportsCatalogue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52A6E3811462A049008F9015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A6E3921462A049008F9015 /* InfoPlist.strings in Resources */,
+				52A6E3981462A049008F9015 /* Credits.rtf in Resources */,
+				52A6E39E1462A049008F9015 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52A6E37F1462A049008F9015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52A6E3941462A049008F9015 /* main.m in Sources */,
+				52A6E39B1462A049008F9015 /* DKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52A6E3901462A049008F9015 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A6E3911462A049008F9015 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52A6E3961462A049008F9015 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A6E3971462A049008F9015 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		52A6E39C1462A049008F9015 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52A6E39D1462A049008F9015 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52A6E39F1462A049008F9015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		52A6E3A01462A049008F9015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		52A6E3A21462A049008F9015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SportsCatalogue/SportsCatalogue-Prefix.pch";
+				INFOPLIST_FILE = "SportsCatalogue/SportsCatalogue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52A6E3A31462A049008F9015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SportsCatalogue/SportsCatalogue-Prefix.pch";
+				INFOPLIST_FILE = "SportsCatalogue/SportsCatalogue-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52A6E37D1462A049008F9015 /* Build configuration list for PBXProject "SportsCatalogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A6E39F1462A049008F9015 /* Debug */,
+				52A6E3A01462A049008F9015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52A6E3A11462A049008F9015 /* Build configuration list for PBXNativeTarget "SportsCatalogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52A6E3A21462A049008F9015 /* Debug */,
+				52A6E3A31462A049008F9015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52A6E37A1462A049008F9015 /* Project object */;
+}
